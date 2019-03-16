@@ -1,0 +1,10 @@
+{
+  "name": "webbyculum",
+  "version": "1.0.0",
+  "description": "Curriculum web. Rodrigo Lima Batista aka rodrigobr92",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rodrigo Lima Batista",
+  "license": "ISC"
+}
