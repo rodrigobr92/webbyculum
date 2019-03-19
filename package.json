@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "description": "Curriculum web. Rodrigo Lima Batista aka rodrigobr92",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "html": "pug src/structure --out public/ -P -w",
+    "css": "stylus -w ./src/styles/ -o ./public/css/ -c -m",
+    "js": "webpack src/scripts/script.js -o public/js/script.js -p -w",
+    "sync": "browser-sync start --server \"public\" --files \"public\"",
+    "start": "concurrently \"npm run html\" \"npm run css\" \"npm run js\" \"npm run sync\""
   },
   "author": "Rodrigo Lima Batista",
   "license": "GPL-3.0",
