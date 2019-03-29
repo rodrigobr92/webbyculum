@@ -12,14 +12,128 @@ html(lang="pt-br")
 		nav.menu
 			ul 
 				li: a(href="#") Informações
-					i.icon.icon-home
-				li: a(href="#") Objetivo
+				li: a(href="#") Apresentação
+				li: a(href="#") Objetivos
 				li: a(href="#") Experiência
 				li: a(href="#") Educação
 				li: a(href="#") Idiomas
 				li: a(href="#") Linguagens
 				li: a(href="#") Ferramentas
 				li: a(href="#") Contato
+		article.main-content
+			h1 Webbyculum
+			section#info 
+				h2 Informações
+				ul
+					li Email:
+						a(mailto="rodrigobr92@gmail.com") rodrigobr92@gmail.com
+					li Telefone: 
+						a(href="tel:+5511981095825") +55 (11) 98109-5825
+					li Endereço:
+						a(href="https://www.google.com/maps/place/Av.+Carlos+Lacerda,+301+-+Pirajussara,+S%C3%A3o+Paulo+-+SP,+05789-000/@-23.6544212,-46.7789636,17z/data=!3m1!4b1!4m5!3m4!1s0x94ce5397ff11eb9f:0x3fcb68578f85e9bf!8m2!3d-23.6544212!4d-46.7767749") Av. Carlos Lacerda, 301, CEP: 05789000 - São Paulo, SP, Brasil
+					li Linkedin: 
+						a(href="https://www.linkedin.com/in/rodrigobr92/") /rodrigobr92 
+					li Github
+						a(href="https://github.com/rodrigobr92") /rodrigobr92
+			section#introduction
+				h2 Apresentação
+				p Amo tecnologia e sistemas desde criança. A pessoa que parentes e amigos consulta sobre como usar seus dispositivos desde então. Sempre pensei em formas de melhorar os sistemas para que os usuários não tenham a necessidade da minha ajuda desde o início. Então eu decidi me tornar um desenvolvedor e criar sistemas mais fáceis de usar, para que os mais jovens e mais velhos possam usar as impressionantes inovações que estes sistemas poderiam trazer para eles com facilidade. Comecei com um curso de Web design básico em 2010, então estudei vigorosamente para também conseguir uma bolsa de estudos 100% porque minha família não teria condições de pagar, e consegui, para estudar Sistemas para Internet como graduação. Desde então eu vivo e respiro desenvolvimento de sistemas, UX, code, ambientes, planejamento e tudo mais sobre o assunto. Tudo que eu quero é levar novas ideias, conceitos e soluções para cada empresa que eu tenha a chance de ajudar. 
 
+			section#goals
+				h2 Objetivos
+				ul
+					li Gestor de projetos 
+					li Analista de sistemas 
+					li Desenvolvedor web
+
+			section#experience
+				h2 Experiência
+				ul 
+					li 
+						h3 DBR.ag 
+						h4 Líder técnico
+							=" "
+							span dez de 2016 – atual
+						p Visão técnica em reuniões de concepção e desenvolvimento de produto, planejamento de tarefas, requisitos técnicos do produto, UX research, gestão do time back-end remoto, gestão da ferramenta de controle de versões (git), gestão de ambientes Linux/cloud e desenvolvimento front-end.
+						h4 Desenvolvedor front-end
+							=" "
+							span jul de 2016 – dez de 2016
+						p Análises técnicas, correção de bugs, novas funcionalidades, desenvolvimento responsivo e animações em múltiplos projetos.
+					li 
+						h3 Canal da Peça 
+						h4 Estagiário - Front end developer
+							=" "
+							span maio de 2015 – outubro de 2015
+						p Desenvolvimento de páginas institucionais, email marketing, correção de bugs e novas funcionalidades do sistema.
+					li
+						h3 Excellence Bebidas Finas
+						h4 Estagiário - Web Designer 
+							=" "
+							span out de 2012 – out de 2013
+						p Responsável pela manutenção e atualização do banco de dados do website da empresa, criação de anúncios publicitários para e-mail marketing e materiais impressos como catálogo de produtos e flyers.
+						
+			section#education
+				h2 Educação
+				h3 Graduação
+				ul 
+					li 
+						h4 IBTA: São Paulo
+						h5 Tecnólogo: Sistemas para internet
+						p Concluído: 2014
+				h3 Cursos
+				ul
+					li
+						h4 Microlins
+						h5 Web Design 
+						p Concluído: 2010
+					li
+						h4 Microlins
+						h5 Manutenção de computadores e redes
+						p Concluído: 2009
+
+			section#languages
+				h2 Idiomas
+				ul
+					li Português - Nativo 
+					li Inglês - Avançado
+
+			section#programming
+				h2 Linguagens e ferramentas
+				ul 
+					li HTML
+					li CSS
+					li JS 
+					li Vue 
+					li Git 
+					li Pug 
+					li Stylus 
+					li Sass
+					li JQuery
+					li Bootstrap
+					li Node
+					li MongoDB
+					li PHP 
+					li MySql
+					li Adobe XD
+					li Adobe Photoshop 
+					li Adobe Illustrator 
+					li Nginx
+					li Cloud Linux (Digital Ocean, Linode)
+
+			section#contact
+				h2 Contato
+				form(action="https://formspree.io/rodrigobr92@gmail.com", method="post")
+					p
+						input(type="text" name="name" placeholder="Nome")
+					p
+						input(type="text" name="company" placeholder="Empresa")
+					p
+						input(type="email" name="email" placeholder="Email")
+					p
+						input(type="tel" name="phone" placeholder="Telefone")
+					p
+						textarea(name="message" rows="3")
+					p
+						input(type="submit" value="Enviar")
 
 		script(src="js/script.js")
